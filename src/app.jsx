@@ -1,10 +1,13 @@
-import FantasticClosure from "./patterns/FantasticClosure"
+// import FantasticClosure from "./patterns/FantasticClosure/FantasticClosure"
+import Reconciliation from "./patterns/Reconciliation/Reconciliation"
+
 
 const App = () => {
   return (
     <div>
       This is App
-      <FantasticClosure />
+      {/* <FantasticClosure /> */}
+      <Reconciliation />
     </div>
   )
 }
